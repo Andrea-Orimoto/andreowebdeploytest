@@ -5,9 +5,6 @@
         },
         "location": {
             "type": "string"
-        },
-        "subscriptionId": {
-            "type": "string"
         }
     },
     "resources": [
