@@ -3,7 +3,7 @@
         "name": {
             "type": "string"
         },
-        "location": {
+        "siteLocation": {
             "type": "string"
         }
     },
