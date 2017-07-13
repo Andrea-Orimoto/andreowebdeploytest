@@ -3,7 +3,7 @@
         "name": {
             "type": "string"
         },
-        "location": {
+        "siteLocation": {
             "type": "string"
         }
     },
@@ -23,7 +23,7 @@
                     ]
                 }
             },
-            "location": "[parameters('location')]",
+            "location": "[parameters('siteLocation')]",
             "kind": "functionapp,botapp"
         }
     ],
