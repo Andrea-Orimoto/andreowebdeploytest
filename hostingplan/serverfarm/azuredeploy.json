@@ -49,6 +49,7 @@
       "name": "[parameters('siteName')]",
       "type": "Microsoft.Web/Sites",
       "location": "[parameters('siteLocation')]",
+      "kind": "webapp,botapp",
       "dependsOn": [
         "[concat('Microsoft.Web/serverFarms/', parameters('hostingPlanName'))]"
       ],
